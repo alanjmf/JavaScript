@@ -51,7 +51,7 @@
     adder++;
     if(orientation[adder]!=0) //When "exif" is defined: rotates and sets the position again
     {
-     alert(orientation[adder]);//Indicates which image is inverted
+     //alert(orientation[adder]);//Indicates which image is inverted
      document.getElementById("img").style.transform="translate(-50%, -50%) rotate("+orientation[adder]+"deg)";
     }
     else //After, to the others ones is needed to rotate 0 degrees and sets the position again
